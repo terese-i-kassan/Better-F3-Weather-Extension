@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "betterf3_weather",
+  "version": "1.0.1",
+  	"authors": [
+		"terese_i_kassan"
+	],
+  "name": "BetterF3 Weather Extension",
+  "description": "Adds a weather module to the BetterF3 F3 Menu. Credits Go To The Authors Of The BetterF3 Mod.",
+  "icon": "assets/betterf3_weather/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.example.bf3weather.WeatherExtension"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "fabric-api": "*",
+    "betterf3": ">=19.0.0"
+  }
+}
